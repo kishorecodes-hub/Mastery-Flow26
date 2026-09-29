@@ -1,0 +1,14 @@
+export * from './server/db/types.js';
+
+export type AppView = 
+  | 'student_dashboard'
+  | 'student_diagnostic'
+  | 'student_learn'
+  | 'student_concepts'
+  | 'teacher_dashboard'
+  | 'teacher_student_detail'
+  | 'teacher_approval'
+  | 'database_explorer'
+  | 'simulation'
+  | 'evaluation'
+  | 'settings';
